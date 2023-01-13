@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "216587677365",
+    "firebase_url": "https://finalproject-c510f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "finalproject-c510f",
+    "storage_bucket": "finalproject-c510f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216587677365:android:b04e484021f0038834d8fc",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216587677365-3193c07k5u5qoklckrkak14e8iom1gdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3fKF-5UgQhfNxMeRsFM8ccXASc6Wufoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216587677365-3193c07k5u5qoklckrkak14e8iom1gdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
