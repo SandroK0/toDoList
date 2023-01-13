@@ -38,10 +38,11 @@ class addItemFragment : DialogFragment() {
 
         super.onViewCreated(view, savedInstanceState)
 
-
+        // ცვლადები
 
         val saveBtn = view.findViewById<Button>(R.id.savebtn)
         val toDoItem = view.findViewById<EditText>(R.id.toDoItem)
+        //----------------------------------------------------------------------------
 
 
 
@@ -50,8 +51,7 @@ class addItemFragment : DialogFragment() {
 
 
 
-
-
+        // ამატებს tasks დათაბეიზში
         saveBtn.setOnClickListener{
             val toDoItemText = toDoItem.text.toString()
 
@@ -72,7 +72,7 @@ class addItemFragment : DialogFragment() {
 
 
         }
-
+        // ----------------------------------------------------------
 
 
     }
