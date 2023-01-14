@@ -4,7 +4,7 @@
                 android:centerColor="#272727"
                 android:endColor="#333333"
         android:angle="45"/>
-    <stroke android:color="#313131"
-            android:width="1dp" />
+<!--    <stroke android:color="#313131"-->
+<!--            android:width="1dp" />-->
     <corners android:radius="20dp" />
 </shape>

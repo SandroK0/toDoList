@@ -1,3 +1,5 @@
+
+
 package com.example.finalproject.auth
 
 import android.content.Intent
@@ -5,8 +7,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
+import android.window.OnBackInvokedDispatcher
 import com.example.finalproject.Profile
 import com.example.finalproject.R
 import com.google.firebase.auth.ktx.auth
@@ -29,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         val bLogin = findViewById<Button>(R.id.bLogin)
         val tvRegister = findViewById<TextView>(R.id.tvResgister)
         val tvForgotPassword = findViewById<TextView>(R.id.tvForgotPassword)
+//        val googleBtn = findViewById<ImageButton>(R.id.googleBtn)
 
 
         //
@@ -52,7 +57,14 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
+
+
+
         }
+
+
+
+
         tvForgotPassword.setOnClickListener {
             startActivity(Intent(this, ForgotPassword::class.java))
         }
@@ -60,5 +72,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, RegisterUser::class.java))
         }
 
+
+
+
+
+    }
+
+    override fun onBackPressed() {
+        super.finish()
     }
 }
