@@ -14,6 +14,8 @@
         android:id="@+id/item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/item"
+
 
 
         android:paddingVertical="20dp">
@@ -24,19 +26,24 @@
             android:layout_height="wrap_content"
             android:paddingStart="20dp"
             android:text="item"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/inter"
+            android:textColor="#E1D9D1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/deleteTask"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginEnd="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_baseline_delete_24" />
+            app:srcCompat="@drawable/delete"
+            />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
