@@ -17,9 +17,6 @@
         android:layout_width="354dp"
         android:layout_height="78dp"
         android:background="@drawable/rectangle_4"
-
-
-
         android:paddingVertical="20dp">
 
         <TextView

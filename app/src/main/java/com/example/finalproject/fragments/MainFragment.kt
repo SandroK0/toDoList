@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -78,7 +79,7 @@ class MainFragment : Fragment() {
 
         //------------------------------------------------------
 
-        val test = view.findViewById<ImageView>(R.id.menuBtn)
+        val test = view.findViewById<TextView>(R.id.menuBtn)
 
 
         // იღებს Data-ს realtime database-დან  და ათავსებს recycler view-ში
