@@ -27,7 +27,7 @@ class Profile : AppCompatActivity() {
 
         setContentView(R.layout.activity_profile)
 
-
+        // რაღაცა გავტესტე ამ კომენტარით
 
 
 
