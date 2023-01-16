@@ -79,7 +79,7 @@ class MainFragment : Fragment() {
 
         //------------------------------------------------------
 
-        val test = view.findViewById<TextView>(R.id.menuBtn)
+        val menuBtn = view.findViewById<TextView>(R.id.menuBtn)
 
 
         // იღებს Data-ს realtime database-დან  და ათავსებს recycler view-ში
@@ -120,17 +120,10 @@ class MainFragment : Fragment() {
 
 
 
-//        test.setOnClickListener {
-//            var text = ""
-//            if (toDoList.isEmpty()){
-//                text = "clear"
-//            }else{
-//                text = toDoList[0].toString()
-//            }
-//
-//                Toast.makeText(context,text,Toast.LENGTH_SHORT).show()
-//        }
-
+        menuBtn.setOnClickListener {
+            val showPopOp = menuFragment()
+            showPopOp.show((activity as AppCompatActivity).supportFragmentManager,"showPopUp")
+        }
 
 
 
