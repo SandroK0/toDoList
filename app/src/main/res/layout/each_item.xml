@@ -14,22 +14,22 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/item"
-        android:layout_width="354dp"
-        android:layout_height="78dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="@drawable/rectangle_4"
         android:paddingVertical="20dp">
 
         <TextView
             android:id="@+id/toDoItem"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:gravity="top"
             android:paddingStart="20dp"
             android:text="item"
-            android:textStyle="normal"
-            android:gravity="top"
-            android:textSize="16sp"
-            android:fontFamily="@font/inter"
             android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -42,8 +42,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/delete"
-            />
+            app:srcCompat="@drawable/delete" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
