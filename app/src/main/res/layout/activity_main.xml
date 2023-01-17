@@ -60,10 +60,11 @@
     <Button
         android:id="@+id/bLogin"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/button"
         android:hint="Log In"
+        android:textStyle="bold"
         android:textAllCaps="false"
         android:fontFamily="@font/inter"
         android:textColorHint="@color/white"
